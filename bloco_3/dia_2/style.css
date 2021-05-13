@@ -1,0 +1,28 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+p {
+  font-weight: 600;
+  font-size: 3em;
+}
+body {
+  font-size: 16px;
+  font-style: italic;
+}
+#list-style {
+    background-color: red;
+}
+#yellow-color {
+  background-color: yellow;
+}
+#red-color {
+  background-color: red;
+}
+#brown-color {
+  background-color: brown;
+}
+.ppluslist-style {
+    background-color: paleturquoise;
+}
