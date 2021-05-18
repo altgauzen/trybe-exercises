@@ -1,16 +1,18 @@
 nav {
-  background-color: red;
+  background-color: rgb(152, 218, 143);
+}
+
+#nav-links li{
+font-size: 20px;
+display: inline-block;
+vertical-align: sub;
+width: max-content;
+height: 50px;
 
 }
 
-main {
-  background-color: silver;
-}
 
-article {
-  border-color: black;
-}
-
-section {
-  border-color: red;
+#biblio {
+  border-style: solid;
+  border: 5px solid red
 }
