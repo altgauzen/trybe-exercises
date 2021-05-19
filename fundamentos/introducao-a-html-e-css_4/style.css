@@ -1,0 +1,18 @@
+nav {
+  background-color: rgb(152, 218, 143);
+}
+
+#nav-links li{
+font-size: 20px;
+display: inline-block;
+vertical-align: sub;
+width: max-content;
+height: 50px;
+
+}
+
+
+#biblio {
+  border-style: solid;
+  border: 5px solid red
+}

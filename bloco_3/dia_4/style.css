@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+}
+
+.first {
+  background-color: rgb(235, 200, 84);
+  font-size: 30px;
+  height: 50px;
+  text-align: center;
+  width: 20%;
+  display: block;
+  margin: auto;
+}
+
+.second {
+  background-color: rgb(219, 219, 219);
+  font-size: 30px;
+  height: 50px;
+  text-align: center;
+  width: 20%;
+  display: inline-block;
+  margin-left: 30%;
+  
+  
+}
+
+.third {
+  background-color: rgb(170, 142, 106);
+  font-size: 30px;
+  height: 50px;
+  text-align: center;
+  width: 20%;
+  display: inline-block;
+  margin-right: 20%;
+  
+}
+
+#winners-section {
+  height: 200px;
+
+}
+
+.line-prizes li{
+  display: inline-block;
+}
