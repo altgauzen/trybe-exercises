@@ -1,4 +1,4 @@
-let pecaDeXadrez = 'REI';
+let pecaDeXadrez = 'dama dupla';
 let pecaDeXadrezLowerCase = pecaDeXadrez.toLowerCase();
 
 switch(pecaDeXadrezLowerCase) {
