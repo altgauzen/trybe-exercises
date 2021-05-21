@@ -78,4 +78,11 @@ let number = 1;
 for (let index = 1; index < 26; index += 1) {
   arrayVinteCinco.push(index)
   }
+
   console.log(arrayVinteCinco);
+
+  // 9 - Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2 .
+
+  for (let index2 = 0; index2 < 25; index2 += 1) {
+       console.log(arrayVinteCinco[index2] / 2);
+  }
