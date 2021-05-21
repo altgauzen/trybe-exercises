@@ -54,7 +54,7 @@ for (let indexI = 0; indexI < numbers.length; indexI += 1) {
   }
 }
   console.log(quantidadeValoresImpares);
-*/
+
 
 
 //7-Utilizando for , descubra qual o menor valor contido no array e imprima-o;  
@@ -68,3 +68,14 @@ for (let indexMenor = 0; indexMenor < numbers.length; indexMenor += 1) {
   }
 }
   console.log(menorValor);
+*/
+
+//8 - Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
+
+
+let arrayVinteCinco = [];
+let number = 1;
+for (let index = 1; index < 26; index += 1) {
+  arrayVinteCinco.push(index)
+  }
+  console.log(arrayVinteCinco);
