@@ -52,8 +52,8 @@ let info2 = {
   nota: 'O último MacPatinhas',
 };
 info2.recorrente = 'Sim';
-  for (let key in info) for (let key2 in info2)  {
-    let margarida = (info[key]);
-    let tioPatinhas = (info2[key2]);
-    console.log(margarida + ' e ' + tioPatinhas);
+let line = ' ';
+  for (let key in info, info2) {
+    if (info['recorrente'] === info2['recorrente'] && 'Sim')
+        console.log(info[key] + ' e ' + info2[key]);
   }
