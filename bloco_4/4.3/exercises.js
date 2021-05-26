@@ -65,12 +65,11 @@ let line = ' ';
 let space = ' ';
 if (n >= 1) {
   for (let index = 0; index < n; index += 1) {
-        for (let index2 = 1; index2 < n - index; index2 += 1) {
+        for (let index2 = 0; index2 < n - index; index2 += 1) {
           line = space + asterisco; 
         }
-    console.log(space, line);
-    space = ' ';
-
+    console.log(line);
+    line = ' ';
   }
 } else {
   console.log('n deve ser maior que 1');
