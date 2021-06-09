@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.speaker-form-reader {
+  text-align: center;
+}
+
+.box-style {
+  background-color: rgb(246, 247, 248);
+  margin: 40px auto;
+}
