@@ -31,27 +31,49 @@
       <fieldset class="fieldset-talk-type">
         <legend>Tipos de Palestra</legend>
 
-        <input type="radio" name="talk-type" id="talk-type-stage">
+        <input type="radio" value='talk-type-stage' name="talk-type" id="talk-type-stage">
         <label for="talk-type-stage">Palco Principal</label>
   
-        <input type="radio" name="talk-type" id="talk-type-workshop">
+        <input type="radio" value='talk-type-workshop' name="talk-type" id="talk-type-workshop">
         <label for="talk-type-workshop">Workshop</label>
-  
       </fieldset>
-      
     </div>
     
 
-
     <!-- INFO CAMISA -->
+    <div class="line-content">
+        <label for="t-shirt-select">Tamanho da Camisa</label>
+        <select name="t-shirt" id="t-shirt-select">
+          <option value="p">Pequeno</option>
+          <option value="m">Médio</option>
+          <option value="g">Grande</option>
+          <option value="gg">Extra Grande</option>
+        </select>
+    </div>
+    
 
     <!-- DESCRIÇÃO DA PALESTRA -->
 
+    <div class="line-content">
+      <label for="">Descrição da Palestra</label>
+      <textarea name="abstract" id="abstract" class="abstract-style"></textarea>
+    </div>
+
+
     <!-- DISPONIBILIDADE PRA DATA -->
+
+    <div class="line-content">
+      <input type="checkbox" name="availability" id="availability">
+      <label for="availability">Estou disponível nesta data</label> 
+    </div>
+
 
     <!-- BOTÃO -->
 
+    <div class="line-content">
+      <button>Enviar</button>
+      <button type="reset">Resetar informações</button>
+    </div>
   </form>
-
 </body>
 </html>
