@@ -1,0 +1,17 @@
+/*const fatorial = number => {
+  for (let index = 0; index < number; index += 1) {
+
+  }
+}*/
+
+const factorial = number => {
+  let result = 1
+
+  for (let index = 2; index <= number; index += 1) {
+      result *= index
+  }
+
+  return result
+}
+
+console.log(factorial(6))
